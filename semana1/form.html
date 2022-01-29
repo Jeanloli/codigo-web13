@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+
+    <!--formularios-->
+    <!--action es la direccion haciendo donde vamos enviar los dato-->
+    <!--method metodo http que usaremos para enviar-->
+    <form action="" method="">
+        <input type="text" 
+        placeholder="ingrese nombre" 
+        name="nombre" 
+        id="mi_nombre"
+        required/>
+
+        <input type="text" 
+        name="ip" 
+        value="127.0.0.1" 
+        readonly/>
+        <input type="text" 
+        name="Numero de hijos" 
+        value="5" 
+        disabled/>
+        <input type="text" 
+        placeholder="Ingrese DNI" 
+        name="DNI"  
+        minlength="8" 
+        maxlength="8"/>
+
+
+        <input type="email" 
+        placeholder="ingrese email" 
+        name="email" 
+        id="mi_email"/>
+
+        <input type="password" 
+        placeholder="ingrese password" 
+        name="password" 
+        id="mi_password"/>
+
+        <input type="number" step="5" placeholder="pasos" min="0"/>
+
+        
+        <input type="submit" value="ingresar">
+        
+
+    </form>
+</body>
+</html>
