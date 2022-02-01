@@ -1,0 +1,27 @@
+body{
+    font-family: helvetica;
+}
+
+.link-referencia{
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.link-referencia:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.contenedor-principal{
+    text-align: center;
+}
+.contenedor-principal p{
+
+}
+
+.imagen-perfil{
+    border-radius: 50%;
+    border: 2px solid black;
+}

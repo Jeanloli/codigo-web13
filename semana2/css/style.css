@@ -1,0 +1,127 @@
+body {
+font-family: helvetica;
+
+}
+
+h1 {background-color: darkgray;
+    color: red;
+  }
+
+  h2{background-color: darkorchid;
+      color: green;
+  }
+
+  p {
+
+  }
+
+  a {
+      color:chartreuse;
+      background-color: maroon;
+  }
+  /*la forma para enlazar un id es utilizar el# */
+
+  #contenedor1 {
+        background-color: #09a;
+  }
+
+  #contenedor2 {
+    background-color: yellow;
+}
+
+/* para compartir estilo se debe utilizar clases*/
+/* para acceder a un clase se utilizar el .*/
+
+.contenedor-principal{
+    background-color: violet;
+    padding: 30px;
+}
+
+.btn-ingresar{
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-registro{
+    background-color: yellow;
+    color: #f01;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+.contenedor-form{
+    border: 3px solid orange;
+    border-radius: 8px;
+    
+}
+
+.contenedor-interno-form{
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.titulo-form{
+    color: blue;
+    background-color: #fff;
+}
+
+.input-form{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px black solid;
+    width: 400px;
+}
+
+.input-codigo{
+    width: 100px;
+}
+
+.input-numero{
+    width: 272px;
+}
+
+.btn-crear{
+    background-color: rgb(180, 180, 152);
+    color:  rgb(24, 27, 202);
+    padding: 5px;
+    border-radius: 50px;
+    border: 2px black solid;
+    
+}
+
+/*seudo clase*/
+/* los elementos tienen propiedades internas
+por ejemplo el hover: es la propiedad que detecta cuando 
+el mouse esta sobre el elemento*/
+.btn-ingresar:hover{
+    background-color: red;
+    text-decoration: none;
+    padding: 20px;
+}
+
+/*los elementos como el tienen pseudoclses como
+link
+visited
+hover
+active */
+/*estas seudo clases aplican par todos los elementos
+de html*/
+
+div:hover{
+    background-color: blue;
+}
+
+.contenedor-interno-form h1 {
+    border: 2px solid black;
+}
+/* first-child/*
+/*busca el primer elemento*/
+
+input:first-of-type{
+    color: red;
+}
