@@ -1,0 +1,29 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+body{
+    font-family: 'Quintessential', cursive;;
+}
+
+.contenedor-1{
+    height: 30vh;
+    background-color: hsl(109, 62%, 78%);
+}
+
+.contenedor-form{
+    border: 3px solid black;
+}
+
+input{
+    display: block ;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid orange;
+}
+
+article {
+    height: 40vh;
+    background-color: rgba(123, 234, 133, 0.3);
+}

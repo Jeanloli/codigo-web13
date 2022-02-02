@@ -1,0 +1,41 @@
+/* *todo*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: arial;
+}
+
+.contenedor p{
+    color: red;
+}
+
+.contenedor-dos h2{
+    color: blueviolet;
+}
+
+.contenedor-tres a img{
+    border: 2px solid blue;
+}
+
+.menu-navegacion{
+    margin: 20px;
+}
+
+/*ul > li{
+    border: 2px solid green;
+}*/
+
+.link-navegacion{
+    border: 2px solid goldenrod;
+}
+
+input[type="email"]{
+    color: yellowgreen;
+}
+
+input[type="password"]{
+    color: rgb(58, 24, 209);
+}
