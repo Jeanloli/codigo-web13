@@ -204,3 +204,100 @@ body{
         padding-right: 30px;
         font-weight: 550;
       }
+
+      /*style for responsive design*/
+
+      @media only screen and (max-width: 480px){
+        
+      .nav div{
+          padding: 5px;
+          padding-right: 0px;
+          padding-left: 0px;
+      }
+
+      .img-logo{
+        padding-left: 15px;
+      }
+      
+      .button-free{
+          
+          margin-right: 15px;      
+        }
+      
+      .section-one{
+          
+          height: 65vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+      }
+        
+      
+        
+        
+        
+        .title{
+          font-size: 2em;
+          width: 90%;
+        }
+        .text-normal{
+          width: 80%;
+        }
+        .img-mockup{
+          width: 400px ;
+        }
+        .section-tree{
+          flex-direction: column;
+        }
+        .section-four{
+          flex-direction: column-reverse;
+          height: 100vh;
+          justify-content: center;
+        }
+        .section-five{
+          flex-direction: column;
+          height: 100vh;
+          justify-content: center;
+        }
+        .img-desktop{
+          width: 300px;
+        }
+        .title-sections{
+          width: 100%;
+          font-size: 2em;
+        }
+        .text-sections{
+          width: 100%;
+        }
+        .background-top{
+          background: url(../../imagenes/reto2/bg-section-top-mobile-1.svg);
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: bottom;
+        }
+        .background-bottom{
+          background: url(../../imagenes/reto2/bg-section-bottom-mobile-1.svg);
+          background-repeat: no-repeat;
+          background-size: contain;
+          /*background-position: bottom;*/
+        }
+        .background-top-dark{
+          background: url(../../imagenes/reto2/bg-footer-top-mobile.svg);
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: bottom;
+        
+        }
+        .footer{
+          flex-direction: column-reverse;
+          height: 80vh;
+        }
+        .title-footer{
+          width: 90%;
+        }
+
+
+
+
+      }
