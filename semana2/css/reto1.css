@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+section {
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    background-color: hsl(216, 50%, 16%);
+    /*height: 65vh;*/
+    width: 250px;
+    border-radius:10px;
+}
+.card-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+.img-principal{
+    border-radius: 14px;
+}
+
+h4 {
+    color: white;
+    font-weight:400;
+    
+}
+p {
+    font-size: 0.8em;
+    margin-top: 15px;
+    color:hsl(0, 0%, 100%);
+    opacity: 0.3;
+    /*font-weight: 300;*/
+}
+
+.contenedor-dos{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contenedor-detalle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.text-eth{
+    color: hsl(178, 100%, 50%);
+    font-size: 0.8em;
+}
+.text-reloj{
+    color:  hsl(215, 51%, 70%);
+    font-size: 0.8em;
+}
+
+.contenedor-autor{
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text1{
+    color:hsl(0, 0%, 100%);
+    opacity: 0.3;
+}
+
+.text2{
+    color: white;
+}
+.autor{
+    margin-left: 10px;
+}
