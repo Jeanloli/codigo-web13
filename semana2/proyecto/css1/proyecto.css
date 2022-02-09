@@ -6,13 +6,16 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
+.logo{
+  background-color: black;
+}
 
 .nav{
-    
+    background-color: black;
     display: flex;/*alinear*/
     justify-content: space-between;
     align-items: center;/*centrar */
-    height: 15vh;
+    /*height: 15vh;*/
 }
 
 .nav div{
@@ -215,9 +218,11 @@ body{
           padding-left: 0px;
       }
 
-      .img-logo{
+      /*.img-logo{
         padding-left: 15px;
-      }
+        height: 100vh;
+        width: 100px;
+      }*/
       
       .button-free{
           
