@@ -9,13 +9,18 @@ body{
 .logo{
   background-color: black;
 }
-
+.heder{
+  position: fixed;
+  width: 100%;
+}
 .nav{
+  
     background-color: black;
     display: flex;/*alinear*/
     justify-content: space-between;
     align-items: center;/*centrar */
     /*height: 15vh;*/
+    
 }
 
 .nav div{
@@ -36,8 +41,10 @@ body{
 }
 
 .section-one{
-    
-    height: 65vh;
+  top: 140px;
+  z-index: -1;
+    position: relative;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,14 +104,14 @@ body{
 }
 
 .background-top {
-    background: url("../../imagenes/reto2/bg-section-top-desktop-1.svg");
+    background: url("../../../imagenes/reto2/bg-section-top-desktop-1.svg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 25vh;
   }
   
   .background-bottom {
-    background: url("../../imagenes/reto2/bg-section-bottom-desktop-1.svg");
+    background: url("../../../imagenes/reto2/bg-section-bottom-desktop-1.svg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 25vh;
@@ -123,7 +130,8 @@ body{
   }
   
   .img-desktop {
-    width: 500px;
+    width: 300px;
+    border-radius: 45%;
   }
   
   .title-sections {
@@ -151,7 +159,7 @@ body{
   }
 
   .background-top-dark{
-      background: url(../../imagenes/reto2/bg-footer-top-desktop.svg);
+      background: url(../../../imagenes/reto2/bg-footer-top-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 25vh;
