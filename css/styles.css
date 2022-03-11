@@ -5,6 +5,61 @@
 
 body{
     font-family: helvetica;
+    
+}
+
+.header{
+    display: flex;
+    justify-content:end;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+
+.img-log{
+    display: flex;
+    width: 30;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav ul > li {
+    padding: 15px;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background: url(./../imagenes/HeartoftheSwarm2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+
+.banner-img {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    height: 55vh;
+    
+}
+.contenedor-principal{
+    padding-bottom: 350px;
 }
 
 .link-referencia{
@@ -20,21 +75,18 @@ body{
     color: white;
 }
 
-.contenedor-principal{
-    text-align: center;
-    height: 100vh;
 
-    
-}
 
 .contenedor-clases{
     height: 100vh;
-    background-color: orange;
-
+    background:url(./../imagenes/descarga\ \(1\).jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 .lista-semanas{
-    margin: 40px;
+    
     padding: 40px;
     list-style: none;
 }
@@ -71,6 +123,7 @@ h3 {
 }
 
 .imagen-programador{
-    border-radius: 12px;
-    margin-top: 40px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
